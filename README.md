@@ -5,7 +5,7 @@
 <!-- STATUS BADGES ROW -->
 <img src="https://img.shields.io/badge/STATUS-OPEN_TO_WORK-22c55e?style=for-the-badge&logo=statuspage&logoColor=white&labelColor=0d1117"/>
 <img src="https://img.shields.io/badge/REMOTE-FIRST-22c55e?style=for-the-badge&logo=wifi&logoColor=white&labelColor=0d1117"/>
-<img width="1304" height="303" alt="Image" src="https://github.com/user-attachments/assets/19d06787-16c5-4f93-9e33-6f1a704457c6" />
+<img width="1308" height="312" alt="Image" src="https://github.com/user-attachments/assets/1b9de2cb-bc31-48b1-b230-97d97ae6beda" />
 
 <br/><br/>
 <!-- PROFILE VIEWS + SOCIALS -->
