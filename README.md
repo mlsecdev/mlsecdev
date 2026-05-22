@@ -34,10 +34,9 @@
 
 <div align="center">
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=mlsecdev-au&theme=matrix&no-frame=true&no-bg=true&margin-w=4&row=1&column=7)](https://github.com/ryo-ma/github-profile-trophy)
+[![trophy](https://github-profile-trophy.vercel.app/?username=mlsecdev&theme=matrix&no-frame=true&no-bg=true&margin-w=4&row=1&column=7)](https://github.com/ryo-ma/github-profile-trophy)
 
 </div>
-
 ---
 
 ## `> tech --list --full`
@@ -170,13 +169,9 @@
 
 <br/>
 
-
-<br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=secureml-au&bg_color=0D1117&color=22c55e&line=22c55e&point=86efac&area=true&hide_border=true&area_color=0f3d2e" width="100%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=mlsecdev&bg_color=0D1117&color=22c55e&line=22c55e&point=86efac&area=true&hide_border=true&area_color=0f3d2e" width="100%"/>
 
 </div>
-
 ---
 
 
