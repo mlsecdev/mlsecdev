@@ -3,13 +3,13 @@
 <br/>
 
 <!-- STATUS BADGES ROW -->
+[![Profile Views](https://komarev.com/ghpvc/?username=cybersec-dev-au&color=22c55e&style=for-the-badge&label=PROFILE+VIEWS)](https://github.com/secureml-au)
 <img src="https://img.shields.io/badge/STATUS-OPEN_TO_WORK-22c55e?style=for-the-badge&logo=statuspage&logoColor=white&labelColor=0d1117"/>
 <img src="https://img.shields.io/badge/REMOTE-FIRST-22c55e?style=for-the-badge&logo=wifi&logoColor=white&labelColor=0d1117"/>
 <img width="1308" height="312" alt="Image" src="https://github.com/user-attachments/assets/1b9de2cb-bc31-48b1-b230-97d97ae6beda" />
 
 <br/><br/>
 <!-- PROFILE VIEWS + SOCIALS -->
-[![Profile Views](https://komarev.com/ghpvc/?username=cybersec-dev-au&color=22c55e&style=for-the-badge&label=PROFILE+VIEWS)](https://github.com/secureml-au)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-au--amores-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117)](https://www.linkedin.com/in/au-amores/)
 [![Portfolio](https://img.shields.io/badge/Portfolio-au--dev--cs-22C55E?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0d1117)](https://au-dev-cs.vercel.app)
 [![LeetCode](https://img.shields.io/badge/LeetCode-auamores-FFA116?style=for-the-badge&logo=leetcode&logoColor=white&labelColor=0d1117)](https://leetcode.com/u/auamores/)
