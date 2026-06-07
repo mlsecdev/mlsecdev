@@ -8,6 +8,23 @@
 <img src="https://img.shields.io/badge/REMOTE-FIRST-22c55e?style=for-the-badge&logo=wifi&logoColor=white&labelColor=0d1117"/>
 <img width="1193" height="278" alt="Image" src="https://github.com/user-attachments/assets/297f8521-309d-4e6c-9e77-fee64db6f8ee" />
 
+
+---
+ <!-- LEETCODE:START -->
+### 🧩 LeetCode Stats
+| Difficulty | Solved | Total |
+|:----------:|:------:|:-----:|
+| 🟢 Easy    | 343 | 947 |
+| 🟡 Medium  | 229 | 2063 |
+| 🔴 Hard    | 75 | 939 |
+| **Total**  | **647** | **3949** |
+ 
+> 🏆 Contest Rating: `1504.5` · Global Rank: `#108178`
+>
+> 🔄 *Auto-updated: 2026-06-07 09:10 UTC*
+ <!-- LEETCODE:END -->
+---
+
 <br/><br/>
 <!-- PROFILE VIEWS + SOCIALS -->
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-au--amores-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117)](https://www.linkedin.com/in/au-amores/)
