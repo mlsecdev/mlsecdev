@@ -9,32 +9,80 @@ README_PATH = "README.md"
 START_MARKER = "<!-- LEETCODE:START -->"
 END_MARKER = "<!-- LEETCODE:END -->"
 
+GRAPHQL_URL = "https://leetcode.com/graphql"
+HEADERS = {
+    "Content-Type": "application/json",
+    "Referer": "https://leetcode.com",
+    "User-Agent": "Mozilla/5.0"
+}
+
 def fetch_stats():
-    url = f"https://alfa-leetcode-api.onrender.com/{LEETCODE_USERNAME}/solved"
-    r = requests.get(url, timeout=15)
+    query = """
+    query userProfile($username: String!) {
+      matchedUser(username: $username) {
+        submitStatsGlobal {
+          acSubmissionNum {
+            difficulty
+            count
+          }
+        }
+      }
+      allQuestionsCount {
+        difficulty
+        count
+      }
+    }
+    """
+    r = requests.post(GRAPHQL_URL, json={"query": query, "variables": {"username": LEETCODE_USERNAME}}, headers=HEADERS, timeout=15)
     r.raise_for_status()
-    return r.json()
+    data = r.json()["data"]
+
+    solved_map = {x["difficulty"]: x["count"] for x in data["matchedUser"]["submitStatsGlobal"]["acSubmissionNum"]}
+    total_map = {x["difficulty"]: x["count"] for x in data["allQuestionsCount"]}
+
+    return {
+        "easySolved": solved_map.get("Easy", 0),
+        "mediumSolved": solved_map.get("Medium", 0),
+        "hardSolved": solved_map.get("Hard", 0),
+        "totalSolved": solved_map.get("All", 0),
+        "totalEasy": total_map.get("Easy", 0),
+        "totalMedium": total_map.get("Medium", 0),
+        "totalHard": total_map.get("Hard", 0),
+        "totalAll": total_map.get("All", 0),
+    }
 
 def fetch_contest():
-    url = f"https://alfa-leetcode-api.onrender.com/{LEETCODE_USERNAME}/contest"
-    r = requests.get(url, timeout=15)
+    query = """
+    query userContestInfo($username: String!) {
+      userContestRanking(username: $username) {
+        rating
+        globalRanking
+        totalParticipants
+      }
+    }
+    """
+    r = requests.post(GRAPHQL_URL, json={"query": query, "variables": {"username": LEETCODE_USERNAME}}, headers=HEADERS, timeout=15)
     r.raise_for_status()
-    return r.json()
+    data = r.json()["data"]["userContestRanking"]
+    if not data:
+        return {"rating": "N/A", "globalRanking": "N/A"}
+    return {
+        "rating": round(data["rating"], 2),
+        "globalRanking": data["globalRanking"],
+    }
 
 def build_section(stats, contest):
-    easy = stats.get("easySolved", 0)
-    easy_total = stats.get("totalEasy", 0)
-    medium = stats.get("mediumSolved", 0)
-    medium_total = stats.get("totalMedium", 0)
-    hard = stats.get("hardSolved", 0)
-    hard_total = stats.get("totalHard", 0)
-    total = stats.get("solvedProblem", 0)
-    total_all = stats.get("totalProblem", 0)
+    easy = stats["easySolved"]
+    medium = stats["mediumSolved"]
+    hard = stats["hardSolved"]
+    total = stats["totalSolved"]
+    easy_total = stats["totalEasy"]
+    medium_total = stats["totalMedium"]
+    hard_total = stats["totalHard"]
+    total_all = stats["totalAll"]
 
-    rating = contest.get("contestRating", "N/A")
-    if isinstance(rating, float):
-        rating = round(rating, 2)
-    rank = contest.get("contestGlobalRanking", "N/A")
+    rating = contest["rating"]
+    rank = contest["globalRanking"]
 
     updated = datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
 
@@ -65,10 +113,7 @@ def update_readme(section):
         print("Markers not found in README.")
         return False
 
-    pattern = re.compile(
-        re.escape(START_MARKER) + r".*?" + re.escape(END_MARKER),
-        re.DOTALL
-    )
+    pattern = re.compile(re.escape(START_MARKER) + r".*?" + re.escape(END_MARKER), re.DOTALL)
     new_content = pattern.sub(section, content)
 
     if new_content == content:
