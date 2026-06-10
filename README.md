@@ -7,24 +7,7 @@
 <img src="https://img.shields.io/badge/STATUS-OPEN_TO_WORK-22c55e?style=for-the-badge&logo=statuspage&logoColor=white&labelColor=0d1117"/>
 <img src="https://img.shields.io/badge/REMOTE-FIRST-22c55e?style=for-the-badge&logo=wifi&logoColor=white&labelColor=0d1117"/>
 <img width="1193" height="278" alt="Image" src="https://github.com/user-attachments/assets/297f8521-309d-4e6c-9e77-fee64db6f8ee" />
-
-
----
- <!-- LEETCODE:START -->
-### 🧩 LeetCode Stats
-| Difficulty | Solved | Total |
-|:----------:|:------:|:-----:|
-| 🟢 Easy    | 417 | 949 |
-| 🟡 Medium  | 234 | 2067 |
-| 🔴 Hard    | 77 | 942 |
-| **Total**  | **728** | **3958** |
-
-> 🏆 Contest Rating: `N/A` · Global Rank: `#N/A`
->
-> 🔄 *Auto-updated: 2026-06-10 03:48 UTC*
-<!-- LEETCODE:END -->
----
-
+<img width="424" height="209" alt="Image" src="https://github.com/user-attachments/assets/7b318348-580f-4eed-93d7-db4946118eab" />
 <br/><br/>
 <!-- PROFILE VIEWS + SOCIALS -->
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-au--amores-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117)](https://www.linkedin.com/in/au-amores/)
@@ -45,15 +28,6 @@
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:0f3d2e&height=3&section=header" width="100%"/>
 </div>
 
----
-
-## `> achievements --display`
-
-<div align="center">
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=mlsecdev&theme=matrix&no-frame=true&no-bg=true&margin-w=4&row=1&column=7)](https://github.com/ryo-ma/github-profile-trophy)
-
-</div>
 ---
 
 ## `> tech --list --full`
