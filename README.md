@@ -156,6 +156,20 @@
 </div>
 
 ---
+<img width="609" height="140" alt="Image" src="https://github.com/user-attachments/assets/ba6e3c5b-8fea-408b-acbf-49a6bde28b49" />
+
+<img width="1311" height="475" alt="Image" src="https://github.com/user-attachments/assets/e7e474fc-cbd2-4521-ae04-3f267499329d" />
+
+<img width="1313" height="451" alt="Image" src="https://github.com/user-attachments/assets/ff754c8b-b73b-4f05-be99-44260725226e" />
+
+<img width="1313" height="438" alt="Image" src="https://github.com/user-attachments/assets/890c4051-993b-4806-aaf8-001be503cc5a" />
+
+<img width="1329" height="433" alt="Image" src="https://github.com/user-attachments/assets/f6724d81-b928-40ba-9d79-c83677077b33" />
+
+
+
+
+---
 
 ## `> git log --stats --all`
 
