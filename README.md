@@ -2,12 +2,15 @@
 <div align="center">
 <br/>
 
+
+<img width="359" height="188" alt="Image" src="https://github.com/user-attachments/assets/2eaa3284-9989-422f-9615-69acba50e928" />
+<img width="482" height="220" alt="Image" src="https://github.com/user-attachments/assets/bcf0188c-6f54-4196-ba6c-fe850a41a727" />
+<img width="646" height="128" alt="Image" src="https://github.com/user-attachments/assets/f6ff63f4-c034-4a27-85c2-cca6874d0a03" />
+
 <!-- STATUS BADGES ROW -->
 [![Profile Views](https://komarev.com/ghpvc/?username=cybersec-dev-au&color=22c55e&style=for-the-badge&label=PROFILE+VIEWS)](https://github.com/secureml-au)
 <img src="https://img.shields.io/badge/STATUS-OPEN_TO_WORK-22c55e?style=for-the-badge&logo=statuspage&logoColor=white&labelColor=0d1117"/>
 <img src="https://img.shields.io/badge/REMOTE-FIRST-22c55e?style=for-the-badge&logo=wifi&logoColor=white&labelColor=0d1117"/>
-<img width="1193" height="278" alt="Image" src="https://github.com/user-attachments/assets/297f8521-309d-4e6c-9e77-fee64db6f8ee" />
-<img width="424" height="209" alt="Image" src="https://github.com/user-attachments/assets/7b318348-580f-4eed-93d7-db4946118eab" />
 <br/><br/>
 <!-- PROFILE VIEWS + SOCIALS -->
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-au--amores-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117)](https://www.linkedin.com/in/au-amores/)
